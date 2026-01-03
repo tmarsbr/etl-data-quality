@@ -1,0 +1,6 @@
+order_id,customer_email,product_name,quantity,unit_price,order_date
+ORD-001,joao.silva@email.com,Notebook Dell Inspiron,1,2500.00,2024-01-15
+ORD-002,maria.santos@email.com,Mouse Logitech,2,45.90,2024-01-15
+ORD-003,pedro.oliveira@email.com,Teclado Mecânico,1,350.00,2024-01-16
+ORD-004,ana.costa@email.com,Monitor LG 24,2,890.00,2024-01-16
+ORD-005,carlos.souza@email.com,Webcam Full HD,1,180.00,2024-01-17
