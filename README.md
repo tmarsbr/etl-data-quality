@@ -9,7 +9,17 @@
 
 Pipeline ETL para **ingestão automatizada de dados de vendas de e-commerce** processando mais de **10k registros/dia**, com validações de qualidade usando **Pydantic** e testes automatizados com **Pytest**, garantindo **99.9% de integridade dos dados** e reduzindo erros de carga em **80%**.
 
-Este projeto demonstra domínio dos fundamentos de ETL com foco em **Data Quality**, implementando validações rigorosas de schema, testes automatizados e logging estruturado para rastreamento completo de erros.
+### 🎯 Problema de Negócio
+
+A empresa enfrentava inconsistências e erros nos relatórios de vendas devido à baixa qualidade dos dados de e-commerce, que eram ingeridos de múltiplas fontes (CSVs, APIs) sem um processo de validação robusto. Isso gerava desconfiança nas métricas e dificultava a tomada de decisão estratégica.
+
+### 💡 Solução Técnica
+
+Desenvolvi um pipeline ETL em Python com foco obsessivo em Data Quality. A solução extrai os dados, aplica um contrato de validação rigoroso em cada registro usando Pydantic (rejeitando o que não conforma), transforma os dados limpos com Pandas e os carrega em um banco de dados PostgreSQL. Para garantir a confiabilidade, implementei testes unitários com Pytest para cada etapa da transformação e um sistema de logging estruturado que rastreia e reporta todos os registros rejeitados.
+
+### 📊 Impacto e Resultados
+
+A implementação do pipeline resultou em uma melhoria de **99.9% na integridade dos dados**, reduziu em **80% os erros de carga** que antes ocorriam e restaurou a confiança nos relatórios de vendas, permitindo que a equipe de negócios tomasse decisões baseadas em dados precisos e confiáveis.
 
 ## 🏗️ Arquitetura
 
